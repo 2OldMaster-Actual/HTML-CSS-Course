@@ -1,0 +1,27 @@
+* {
+    color: white;
+}
+
+header {
+    background-color: red;
+}
+
+nav {
+    background-color: orange;
+}
+
+section {
+    background-color: yellow;
+}
+
+article {
+    background-color: lightgreen;
+}
+
+aside {
+    background-color: blue;
+}
+
+footer {
+    background-color: purple;
+}

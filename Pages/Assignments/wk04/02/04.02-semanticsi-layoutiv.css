@@ -1,0 +1,27 @@
+* {
+    color: black;
+}
+
+header {
+    background-color: aqua;
+}
+
+nav {
+    background-color: yellow;
+}
+
+article {
+    background-color: limegreen;
+}
+
+article > section {
+    background-color: violet;
+}
+
+aside {
+    background-color: orange;
+}
+
+aside > section {
+    background-color: red;
+}
