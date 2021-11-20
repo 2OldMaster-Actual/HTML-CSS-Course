@@ -4,4 +4,23 @@
             li (x5)
                 a (x5)
         Don't include text decoration underlining on anchor tags
-        Apply background color on hover */
+        Apply background color on hover
+*/
+
+nav {
+    background-color: lightblue;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: limegreen;
+    background-color: black;
+}

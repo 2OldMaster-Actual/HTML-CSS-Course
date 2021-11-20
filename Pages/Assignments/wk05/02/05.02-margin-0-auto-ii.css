@@ -1,3 +1,38 @@
 /* 
     Create two webpages
  */
+
+ html {
+    border: 2px dashed hotpink;
+    padding: 10em;
+ }
+
+body {
+    border: 2px dashed magenta;
+    margin: 0 auto;
+}
+
+div {
+    border: 2px solid black;
+    display: block;
+    margin: 30px auto;
+    height: 50px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
