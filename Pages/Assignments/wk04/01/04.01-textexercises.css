@@ -1,0 +1,55 @@
+*{
+
+}
+
+.serif{
+    color: green;
+    font-family: serif;
+}
+
+.sans-serif{
+    color: red;
+    font-family: sans-serif;
+}
+
+.fancyfont{
+    color: blue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.four{
+    font-weight: 400;
+}
+
+.seven{
+    font-weight: 700;
+}
+
+.smallcap-italics{
+    color: purple;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.spacey{
+    color:brown;
+    letter-spacing: .5em;
+}
+
+.shadow{
+    color: darkblue;
+    text-shadow: 5px 5px 2px red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.indented{
+    color:aquamarine;
+    background-color: blueviolet;
+}

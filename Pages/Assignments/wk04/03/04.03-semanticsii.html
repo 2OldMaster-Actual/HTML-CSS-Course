@@ -1,51 +1,57 @@
-<header>
-    <h1>Welcome To Our Website!</h1>
-    <p>Here is our logo and slogan.</p>
-</header>
+<!DOCTYPE html>
+<html>
 
-<nav>
-    <ul>
-        <li>Menu 1</li>
-        <li>Menu 2</li>
-        <li>Menu 3</li>
-    </ul>
-</nav>
-
-<article>
     <header>
-        <h2>Title of Article</h2>
+        <h1>Welcome To Our Website!</h1>
+        <p>Here is our logo and slogan.</p>
+        <img src="~/media/images/site-logo.jpg" alt="Our site logo seems to be missing."/>
+        <link rel="stylesheet" href="04.03-semanticsii.css";>
     </header>
 
-    <section>
-        <h3>First Logical Part (e.g. "Theory")</h3>
-        <p>Paragraph 1 in first section</p>
+    <nav>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+        </ul>
+    </nav>
 
-        <h3>Some Other Subheading in First Section</h3>
-        <p>Paragraph 2 in first section</p>
-    </section>
+    <article id="top">
+        <header>
+            <h2>Potatoes</h2>
+        </header>
 
-    <section>
-        <h3>Second Logical Part (e.g. "Practice")</h3>
-        <p>Paragraph 1 in second section</p>
-        <p>Paragraph 2 in second section</p>
-    </section>
+        <section id="section1">
+            <h3>Theory of Potatoes</h3>
+            <p>They grow incredibly well in small piles of dirt.</p>
+
+            <h3>How many potatoes can you grow?</h3>
+            <p>After about 20 seconds, a thousand potatoes sprouted in my planter box.</p>
+        </section>
+
+        <section id="section2">
+            <h3>Usage of Potatoes</h3>
+            <p>Because potatoes grow at lightning fast speeds, we need ways to use them quickly.</p>
+            <p>Poatoes can be used as food, carved into small ocarinas, or used as ammo in potato launchers for great fun!</p>
+        </section>
+
+        <footer>
+            <h4>Captain Spud's Bio</h4>
+            <p>Captain Spud spent his last breaths sharing his knowledge up until being mashed. He served us well, but could have used a bit more salt.</p>        </footer>
+
+    </article>
+
+    <aside>
+
+        <h2>Other Potato Fun Facts</h2>
+        <p>Look at our main site to find silly facts about potatoes!</p>
+    </aside>
 
     <footer>
-        <h4>Author Bio</h4>
-        <p>Paragraph in Article's Footer</p>
+        <ul>
+            <li>Footer</li>
+            <li>Copyright or Copyleft?</li>
+        </ul>
     </footer>
 
-</article>
-
-<aside>
-
-    <h2>Get To Know Us Better</h2>
-    <p>blah blah blah blah blah</p>
-</aside>
-
-<footer>
-    <ul>
-        <li>Copyright</li>
-        <li>Social Media Links</li>
-    </ul>
-</footer>
+</html>
