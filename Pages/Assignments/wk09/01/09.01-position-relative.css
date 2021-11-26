@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div {
+    background-color: palegreen;
+    height: 100px;
+    width: 100px;
+    border: 2px dotted rebeccapurple;
+}
+
+#rel {
+    position: relative;
+    top: 50px;
+    left: 75px;
+}

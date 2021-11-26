@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#d1 {
+    height: 500px;
+    width: 500px;
+    background-color: lightgreen;
+    position: fixed;
+}
+
+#d2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
