@@ -9,3 +9,10 @@ footer {
     align-content: center;
     justify-content: center;
 }
+
+body > div {
+    height: 1500px;
+    width: 100%;
+    background-color: skyblue;
+    border: 5px dotted lightslategray;
+}
