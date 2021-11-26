@@ -1,0 +1,11 @@
+footer {
+    background-color: rgba(127, 255, 127, .25);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
