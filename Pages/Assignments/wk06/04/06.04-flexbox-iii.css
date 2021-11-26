@@ -1,0 +1,42 @@
+html {
+    border: 2px dotted;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+}
+
+div {
+    display: inline-block;
+    margin: 0;
+    height: 100px;
+    text-align: center;
+}
+
+#one {
+    background-color: red;
+    width: 100%;
+}
+
+#two {
+    background-color: aqua;
+    width: 60%;
+}
+
+#three {
+    background-color: palegreen;
+    width: 40%;
+}
+
+#four{
+    background-color: yellow;
+    width: 50%;
+}
+
+#five {
+    background-color: violet;
+    width: 50%;
+}

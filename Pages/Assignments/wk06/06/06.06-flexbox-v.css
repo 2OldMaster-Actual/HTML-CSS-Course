@@ -1,0 +1,25 @@
+html {
+    border: 2px solid red;
+}
+
+body {
+    display: inline-block;
+    display: flex;
+}
+
+div {
+    height: 50px;
+}
+
+.one {
+    background-color: darkblue;
+    
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: lightblue;
+}

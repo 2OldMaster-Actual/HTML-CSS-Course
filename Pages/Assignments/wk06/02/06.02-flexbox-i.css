@@ -1,0 +1,26 @@
+* {
+    border: 2px solid blue;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    flex-grow: 1;
+    /* display: inline-block; */
+    background-color: red;
+    text-align: center;
+}
+
+/* .grow1 {
+    flex-grow: 1;
+} */
+
+.grow2 {
+    flex-grow: 2;
+}

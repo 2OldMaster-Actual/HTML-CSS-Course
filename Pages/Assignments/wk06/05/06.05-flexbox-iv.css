@@ -1,0 +1,44 @@
+html {
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+}
+
+div {
+    height: 100px;
+}
+
+.one {
+    color: darkblue;
+    background-color: darkblue;
+    width: 60%;
+}
+
+.two {
+    color: blue;
+    background-color: blue;
+    width: 40%;
+}
+
+.three {
+    color: aqua;
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.four {
+    color: lightblue;
+    background-color: lightblue;
+    flex-grow: 1;
+}
+
+.five {
+    color: whitesmoke;
+    background-color: whitesmoke;
+    flex-grow: 1;
+}

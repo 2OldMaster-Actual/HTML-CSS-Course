@@ -1,0 +1,22 @@
+* {
+    border: 2px dotted purple;
+}
+
+body {
+    display: flex;
+}
+
+div {
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}
