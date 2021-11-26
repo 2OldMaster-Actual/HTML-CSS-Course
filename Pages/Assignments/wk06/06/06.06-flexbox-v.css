@@ -5,21 +5,30 @@ html {
 body {
     display: inline-block;
     display: flex;
+    flex-flow: row wrap;
 }
 
 div {
-    height: 50px;
+    min-height: 50px;
+    color: white;
 }
 
 .one {
     background-color: darkblue;
-    
+    width: 30%;
+    /* align-self: stretch; */
 }
 
 .two {
-    background-color: blue;
+    width: 70%;
 }
 
 .three {
+    background-color: blue;
+    width: 100%;
+}
+
+.four {
     background-color: lightblue;
+    width: 100%;
 }
