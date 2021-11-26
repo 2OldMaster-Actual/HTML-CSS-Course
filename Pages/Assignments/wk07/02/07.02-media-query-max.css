@@ -13,30 +13,31 @@ div {
     display: inline-block;
     margin: 0;
     height: 100px;
+    width: 100%;
     text-align: center;
 }
 
 #one {
     background-color: red;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #two {
     background-color: aqua;
-    width: 60%;
+    /* width: 60%; */
 }
 
 #three {
     background-color: palegreen;
-    width: 40%;
+    /* width: 40%; */
 }
 
 #four{
     background-color: yellow;
-    width: 50%;
+    /* width: 50%; */
 }
 
 #five {
     background-color: violet;
-    width: 50%;
+    /* width: 50%; */
 }
