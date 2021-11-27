@@ -6,41 +6,35 @@ html, body, div {
 }
 
 div {
+    width: 100%;
+    height: 150px;
     display: inline-block;
-    height: 300px;
-    background-color: lightblue;
 }
 
-.top {
+#top {
     border: 5px solid blue;
     background-color: yellow;
 }
 
-.mid {
+#mid {
     border: 5px solid green;
 }
 
-.bottom {
+#bot {
     border: 5px solid red;
     background-color: purple;
 }
 
-body > div {
-    width: 100%;
-}
-
-/* Everything above this works */
-
-/* Code below does not align properly. Needs fix. */
-
 .left {
-    border: 5px solid black;
+    height: 100%;
+    border: 3px solid black;
     background-color: skyblue;
-    width: calc(20% - 3px);
+    width: 20%;
 }
 
 .right {
-    border: 5px solid black;
+    height: 100%;
+    border: 3px solid black;
     background-color: lightgreen;
-    width: calc(80% - 3px);
+    width: 80%;
 }
