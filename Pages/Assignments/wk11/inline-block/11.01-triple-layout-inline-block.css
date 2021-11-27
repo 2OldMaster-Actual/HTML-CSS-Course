@@ -1,0 +1,46 @@
+html, body, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.top {
+    border: 5px solid blue;
+    background-color: yellow;
+}
+
+.mid {
+    border: 5px solid green;
+}
+
+.bottom {
+    border: 5px solid red;
+    background-color: purple;
+}
+
+body > div {
+    width: 100%;
+}
+
+/* Everything above this works */
+
+/* Code below does not align properly. Needs fix. */
+
+.left {
+    border: 5px solid black;
+    background-color: skyblue;
+    width: calc(20% - 3px);
+}
+
+.right {
+    border: 5px solid black;
+    background-color: lightgreen;
+    width: calc(80% - 3px);
+}

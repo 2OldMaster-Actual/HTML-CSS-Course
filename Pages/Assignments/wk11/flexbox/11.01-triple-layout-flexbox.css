@@ -1,0 +1,47 @@
+html, body, header, div, section, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    border: 5px solid blue;
+    background-color: yellow;
+}
+
+div {
+    width: 100%;
+    height: 150px;
+    border: 5px solid green;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: skyblue;
+}
+
+.right {
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    border: 5px solid red;
+    background-color: purple;
+}
