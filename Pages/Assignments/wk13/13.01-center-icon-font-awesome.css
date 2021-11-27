@@ -1,0 +1,29 @@
+html, body, section {
+    padding: 0;
+    border: 2px dotted black;
+    margin: 0;
+}
+
+section {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(51, 255, 0);
+    background-color: black;
+}
+
+span {
+    animation: breathe;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes breathe {
+    0% {color: rgb(51, 255, 0);}
+    100% {color: darkgreen;}
+}
