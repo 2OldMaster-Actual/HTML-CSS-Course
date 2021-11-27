@@ -13,6 +13,9 @@ div {
 }
 
 div:hover {
-    transition-duration: 3s;
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-timing-function: steps(4, end);
+    transition-delay: 50ms;
     background-color: blue;
 }
