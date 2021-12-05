@@ -1,0 +1,45 @@
+html, header, nav, ul, li, a, body, div, section, p, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+a {
+    text-align: center;
+    padding: 1em;
+    display: block;
+}
+
+section {
+    height: 150px;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
