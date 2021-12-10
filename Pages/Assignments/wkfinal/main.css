@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    color: rgb(57, 255, 0);
+    background-color: black;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(57, 255, 0);
+    text-align: center;
+    display: block;
+    padding: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(57, 255, 0);
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+section > p {
+    width: 70%;
+    text-align: justify;
+}
+
+section > h3 {
+    width: 100%;
+}
+
+div {
+    border: 2px dashed orange;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Vendor section borders
+
+.comptia {
+    border 2px dashed red;
+}
+
+.cisco {
+    border 2px dashed skyblue;
+}
+
+.microsoft {
+    border 2px dashed royalblue;
+}
+
+*/
+
+#courselink {
+    text-decoration: none;
+    color: darkcyan;
+}
